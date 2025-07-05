@@ -1,0 +1,133 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background: #f8dbdb; */
+
+}
+
+.container{
+  background-color: #d6babcbe;
+  height: 790px;
+  width: 1100px;
+  margin-left:15%;
+
+}
+.lib-Header{
+  height: 70px;
+  width: 500px;
+  background: #746161;
+  margin-left: 265px;
+  border: 2px solid rgb(172, 120, 120);
+  border-radius: 30%;
+ 
+
+ 
+
+}
+h2{
+ font-size: 45px;
+ padding-left: 130px;
+ padding-top: 10px;
+}
+
+.bookCell{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 30px;
+  gap: 20px 40px;
+}
+.Book-box{
+  border: 2px solid rgb(113, 102, 102);
+  height: 200px;
+  width: 280px;
+  border-radius: 5px;
+  background: #787373cc;
+  
+
+  
+
+}
+.BookName{
+  
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(169, 49, 49, 0.982);
+
+
+}
+
+.BookAuthor{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(66, 57, 57, 0.982);
+  padding-top: 5px;
+
+}
+.PageNo{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(92, 48, 48, 0.982);
+  padding-top: 9px;
+
+}
+
+.read{
+  
+  margin-top: 30px;
+  margin-left: 4px;
+  height: 30px;
+  width: 70px;
+  background: #6e9c40;
+  border-radius: 5px;
+  gap: 20px 40px;
+  cursor: pointer;
+}
+.delete-book{
+  
+  margin-top: 30px;
+  margin-left: 4px;
+  height: 30px;
+  width: 70px;
+  background: #bf1a40;
+  border-radius: 5px;
+  gap: 20px 40px;
+  cursor: pointer;
+}
+.addButton{
+  margin-top: 60px;
+  margin-left: 400px;
+  height: 30px;
+  width: 200px;
+  background: #d7b289;
+  border-radius: 5px;
+  gap: 20px 40px;
+  cursor: pointer;
+ 
+ 
+  
+}
+.newBook{
+ /* border: 1px solid black; */
+  border-radius:3px;
+ width: 300px;
+ height: 300px;
+ margin-left: 17px;
+ /* background: #95988b; */
+
+  
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+ 
+
+
+}
+input{
+  height: 30px;
+  margin-bottom: 20px;
+  width: 240px;
+}
+
+
+
